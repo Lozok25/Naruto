@@ -1,0 +1,342 @@
+:root {
+
+    --fondColor: rgba(112, 24, 24, 1);
+    --bord: 14px;
+    --bordure: solid rgb(23, 16, 16);
+    --hauteurSecteur3: 172px;
+}
+
+body {
+
+    color: whitesmoke;
+    /* background-image: url(images/Bg\ projet.jpg); */
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Advent Pro', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    padding: 0%;
+    margin: 0%;
+
+
+}
+
+
+img[src="images/bandeau.png"] {
+
+    width: 429px;
+    height: 139px;
+    margin: auto;
+    display: flex;
+
+
+
+}
+
+
+
+
+.text {
+
+    background-color: var(--fondColor);
+    border-radius: var(--bord);
+    color: whitesmoke;
+    text-align: center;
+    width: 30%;
+    border: var(--bordure);
+
+}
+
+.secteur_2 {
+
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+ul {
+
+    list-style: none;
+
+
+
+}
+
+
+
+
+
+
+img[src="images/shuri.jpg"] {
+
+
+    width: 50px;
+    height: 40px;
+    opacity: 15px;
+
+
+
+}
+
+
+
+
+.liste {
+
+    background-color: var(--fondColor);
+    padding: 15px;
+    width: 35%;
+    min-width: 400px;
+    border-radius: var(--bord);
+    border: var(--bordure);
+    height: var(--hauteurSecteur3);
+
+
+
+}
+
+.tableau {
+
+
+    background-color: var(--fondColor);
+    padding: 15px;
+    width: 35%;
+    min-width: 400px;
+    border-radius: var(--bord);
+    border: var(--bordure);
+    height: var(--hauteurSecteur3);
+    min-height: 200px;
+    text-align: center;
+
+
+}
+
+li {
+
+    align-items: center;
+    display: flex;
+
+}
+
+.secteur_3 {
+
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+
+
+
+.secteur_4 {
+
+
+
+    display: flex;
+
+
+
+}
+
+.soft {
+
+    margin: auto;
+    align-items: center;
+
+}
+
+
+
+
+.paragrapheSoft {
+
+
+    background-color: var(--fondColor);
+    padding: 25px;
+    width: 75%;
+    min-width: 400px;
+    border-radius: var(--bord);
+    border: var(--bordure);
+    height: 170px;
+    text-align: center;
+
+
+
+
+
+}
+
+
+
+.paragrapheHobbies {
+
+
+    background-color: var(--fondColor);
+    padding: 25px;
+    width: 75%;
+    min-width: 400px;
+    border-radius: var(--bord);
+    border: var(--bordure);
+    height: 170px;
+    text-align: center;
+
+
+
+
+}
+
+
+
+
+img[src="images/KunaiLeft1bis.png"] {
+
+
+
+    width: 100px;
+    height: 70px;
+
+
+}
+
+
+img[src="images/KunaiRight1bis.png"] {
+
+
+
+    width: 100px;
+    height: 70px;
+
+
+}
+
+.titreSoft {
+
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+
+.titreHobbies {
+
+    display: flex;
+    justify-content: space-around;
+
+
+    
+}
+
+@media all and (max-width: 800px) {
+    
+    .bandeau{
+        
+        
+        margin-left: 70px;        
+        
+    }
+    
+    
+    img[src="images/bandeau.png"] {
+    
+        width: 350px;
+        height: 100px;
+        margin: auto;
+        display: flex;
+    
+    
+    
+    }
+
+    
+    img[src="images/KunaiLeft.png"] {
+
+        width: 100px;
+        height: 80px;
+        
+
+    }
+
+
+    img[src="images/KunaiRight.png"] {
+
+        width: 100px;
+        height: 80px;
+        
+
+    }
+
+
+
+    .secteur_2{
+
+        display: flex;
+        justify-content: center;
+        margin-left: 70px;
+
+    }
+
+
+    
+    .secteur_3{
+
+
+        display: block;
+        margin-left: 15px;
+
+        
+    }
+
+    
+    .masque {
+ 
+        
+        margin-left: 70px;
+        height: px;
+
+
+
+    }
+
+    .secteur_4{
+
+        display: block;
+        margin-left: 5px;
+    
+
+    }
+
+    .titreSoft{
+
+        margin-left: 60px;
+
+
+
+
+    }
+
+    .titreHobbies{
+
+
+        margin-left: 60px;
+
+    }
+    
+
+    .paragrapheSoft {
+
+            height: 200px;
+        
+
+    }
+
+    .paragrapheHobbies {
+
+        
+        height: 200px;
+    }
+}
